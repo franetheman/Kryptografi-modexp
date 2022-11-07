@@ -86,12 +86,12 @@ for i in range(10**6):
     vectors.append(args)
 
 print(fails)
-f = open("modexp_runs1.txt", "w")
-f.write("Failures: {}\n".format(fails))
-f.write("Base, Exponent, Module, Result")
-for i in range(len(vectors)//2):
-    f.write("{}, {}, {}, {}\n".format(vectors[i][0],vectors[i][1],vectors[i][2],vectors[i][3]))
-f.close()
-f = open("modexp_runs2.txt", "w")
-for i in range(len(vectors)//2, len(vectors)):
-    f.write("{}, {}, {}, {}\n".format(vectors[i][0],vectors[i][1],vectors[i][2],vectors[i][3]))
+#f = open("modexp_runs1.txt", "w")
+#f.write("Failures: {}\n".format(fails))
+#f.write("Base, Exponent, Module, Result")
+#for i in range(len(vectors)//2):
+#    f.write("{}, {}, {}, {}\n".format(vectors[i][0],vectors[i][1],vectors[i][2],vectors[i][3]))
+#f.close()
+#f = open("modexp_runs2.txt", "w")
+#for i in range(len(vectors)//2, len(vectors)):
+#    f.write("{}, {}, {}, {}\n".format(vectors[i][0],vectors[i][1],vectors[i][2],vectors[i][3]))
